@@ -14,5 +14,5 @@
 }
 - `Passo 10` Clicar em "Send"
 
-<h1> Esse endpoint irá receber sua string via requisição POST e retornar a mesma string concatenada com a data e hora no formato: [sua string] - Processed at UTC: [data e hora] </h1>
-<h1 align="center"> UTC = Coordenadas Universais de tempo, ou seja, são 3 horas a mais que o horário local brasileiro </h1>
+<h2> Esse endpoint irá receber sua string via requisição POST e retornar a mesma string concatenada com a data e hora no formato: [sua string] - Processed at UTC: [data e hora] </h2>
+<h2 align="center"> UTC = Coordenadas Universais de tempo, ou seja, são 3 horas a mais que o horário local brasileiro </h2>
