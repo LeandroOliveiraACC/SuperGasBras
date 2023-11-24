@@ -17,7 +17,8 @@
 
 <h2 align="center"> Resultados e Observações </h2>
 
-- `Observação 1` Esse endpoint irá receber sua string via requisição POST e retornar a mesma string concatenada com a data e hora no formato: **[sua string] - Processed at UTC: [data e hora]** 
-- `Observação 2` UTC = Coordenadas Universais de tempo, ou seja, são 3 horas a mais que o horário local brasileiro.
-- `Observação 3` Este projeto foi criado com o Visual Studio utilizando o modelo "API WEB do ASP.NET Core" e foi usada a versão 7.0 do .net, não foi necessário mexer nos arquivos base criados pelo programa, minha unica alteração neles foi setar a porta.
-- `Observação 4` Este código ainda não tem nenhuma configuração de autorização configurada e não trata os erros mais incomuns, apenas mostra eles.
+- `Resultado` Esse endpoint irá receber sua string via requisição POST e retornar a mesma string concatenada com a data e hora no formato: **[sua string] - Processed at UTC: [data e hora]** 
+- `Observação 1` UTC = Coordenadas Universais de tempo, ou seja, são 3 horas a mais que o horário local brasileiro (foi usado {DateTime.UtcNow}).
+- `Observação 2` Este projeto foi criado com o Visual Studio utilizando o modelo "API WEB do ASP.NET Core" e foi usada a versão 7.0 do .net, não foi necessário mexer nos arquivos base criados pelo programa, minha unica alteração neles foi setar a porta.
+- `Observação 3` Este código ainda não tem nenhuma configuração de autorização setada e não trata os erros mais incomuns, apenas mostra eles.
+- `Observação 4` Pode ser que haja um alerta de "Possível argumento de referência nula para o parâmetro 'inputString'" ao executar, mas ele ocorre devido a versão do C# e a forma que foi tratada a string, não afetando em nada o programa.
