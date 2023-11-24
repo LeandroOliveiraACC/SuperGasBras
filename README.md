@@ -13,6 +13,9 @@
 "inputString": "Insira Sua String Aqui"
 }
 - `Passo 10` Clicar em "Send"
-<h2 align="center"> Resultados e Observações</h2>
+
+
+<h2 align="center"> Resultados e Observações </h2>
+
 #### Esse endpoint irá receber sua string via requisição POST e retornar a mesma string concatenada com a data e hora no formato: [sua string] - Processed at UTC: [data e hora] 
 #### UTC = Coordenadas Universais de tempo, ou seja, são 3 horas a mais que o horário local brasileiro.
