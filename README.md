@@ -9,7 +9,7 @@
 - `Passo 7`Configurar para o método POST com esse endereço: "http://localhost:7026/api/process/string"
 - `Passo 8`Na aba "Body" selecionar a opção "raw" no formato JSON
 - `Passo 9`Passar uma requisição nesse formato: 
-{
-"inputString": "Insira Sua String Aqui"
-}
+<br>{
+<br>"inputString": "Insira Sua String Aqui"
+<br>}
 - `Passo 10`Clicar em "Send"
