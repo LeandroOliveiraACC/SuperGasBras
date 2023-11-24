@@ -1,4 +1,4 @@
-<h2 align="center"> Resultados e Observações </h2>
+<h2 align="center"> Resultado e Observações </h2>
 
 - `Resultado` Esse endpoint irá receber sua string via requisição POST e retornar a mesma string concatenada e em formato Json com a data e hora no formato: **"[sua string] - Processed at UTC: [data e hora]"** 
 - `Observação 1` UTC = Coordenadas Universais de tempo, ou seja, são 3 horas a mais que o horário local brasileiro (Já que foi usado "DateTime.UtcNow").
