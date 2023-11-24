@@ -16,7 +16,8 @@ public class RecebeController : ControllerBase
             if (validadorResult.IsValid)
             {
                 string recebido = ConcatenaRecebido(inputModel.InputString);
-                return recebido;
+                return $"\"{recebido}\"";
+                // Para retornar a string direto, sem ser em formato Json basta fazer assim: return recebido;
             }
             else
             {
